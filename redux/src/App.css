@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+​ #root {
+  width: 100vw;
+  height: 100vh;
+}
+​ main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #235c5e;
+}
+​ .counter {
+  margin: 20px;
+}
+​ .counter button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #235c5e;
+  background-color: cornsilk;
+  margin-left: 10px;
+  cursor: pointer;
+}
+​ .counter h1 {
+  font-size: 2rem;
+  margin-left: 8px;
+  color: cornsilk;
+}
+​ .toggle {
+  display: flex;
+  margin: 0 20px;
+}
+​ .toggle aside {
+  width: 200px;
+  height: 100px;
+}
+​ .toggle button {
+  width: 100px;
+  height: 100px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #235c5e;
+  background-color: cornsilk;
+  margin-left: 20px;
+  cursor: pointer;
+}
+​ .toggle .light {
+  background-color: #0ceba0;
+}
+​ .toggle .dark {
+  background-color: brown;
+}
+​ .search {
+  margin: 40px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+​ .search input {
+  width: 200px;
+  height: 30px;
+  background-color: cornsilk;
+  color: #235c5e;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+​ .search button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #235c5e;
+  background-color: cornsilk;
+  margin-left: 20px;
+  cursor: pointer;
+}
+​ .search p {
+  color: cornsilk;
+  font-size: 1.2rem;
+}
